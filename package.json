@@ -1,8 +1,8 @@
 {
-  "name": "What",
-  "description": "Test site for handling image assets with Sharp on Netlify CMS",
+  "name": "JNJ Art Group",
+  "description": "Online gallery with Gatsby Sharp on Netlify CMS",
   "version": "0.0.1",
-  "author": "Owen Hoskins <owen.hoskins@gmail.com>",
+  "author": "Robert Wolf",
   "dependencies": {
     "gatsby": "^1.9.165",
     "gatsby-image": "^1.0.39",
