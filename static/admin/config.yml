@@ -18,15 +18,17 @@ collections:
       - {label: 'Template', name: 'templateKey', widget: 'hidden', default: gallery }
       - {label: 'Path', name: 'path', widget: 'string', pattern: ['^\/[a-z0-9\-]+$', 'Must begin with "/" and may only consist of lowercase letters (except umlauts), numbers and "-"']}
       - {label: 'Title', name: 'title', widget: 'string'}
-      - {name: order, label: Position, widget: number, default: 0}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
+      - {label: 'Název', name: 'nazev', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'text'}
+      - {label: 'Popis', name: 'popis', widget: 'text'}
+      - {name: order, label: 'Pořadí', widget: number, default: 0}
       - name: images
         label: Gallery
         widget: gallery
         required: true
         fields:
           - {name: image, label: Image, widget: image, class: 'gallery'}
-          - {name: price, label: Cena, widget: text, class: 'gallery'}
+          - {name: price, label: Cena, widget: text}
 
   - name: artists
     label: Artists
