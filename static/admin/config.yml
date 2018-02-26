@@ -26,6 +26,7 @@ collections:
         required: true
         fields:
           - {name: image, label: Image, widget: image, class: 'gallery'}
+          - {name: price, label: Cena, widget: text, class: 'gallery'}
 
   - name: artists
     label: Artists
